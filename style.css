@@ -1,0 +1,155 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+.body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* sidebar */
+.sidebar {
+position: fixed;
+  width: 8rem;
+  height: 100vh;
+  background-color:#eee;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hamburger{
+    margin-top: 3rem;
+    cursor: pointer;
+    position: relative;
+}
+
+.line {
+  height: 0.2rem;
+  width: 2.5rem;
+  background-color: #222;
+  margin-bottom: .6rem;
+}
+
+.line-1, .line-3{
+    width:1.8rem;
+}
+
+.hamburger:hover .line{
+    width:2.5rem;
+    transition:all .2s;
+}
+
+
+.social-icons-list {
+  list-style: none;
+  padding:0;
+  height:15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-icon{
+    font-size: 2rem;
+    color: #777;
+}
+
+.social-icon:hover{
+    color:#000;
+    transform: scale(2,2);
+    transition: all .2s;
+}
+
+.year{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #555;
+}
+
+.navigation{
+    width:32rem;
+    height: 100vh;
+    margin-left: 8rem;
+    background: linear-gradient(to top, rgba(34,42, 41,1), rgba(34,42,41,.7)),url(./images/background-1.jpg) center no-repeat;
+    background-size: cover;
+}
+/* end sidebar */
+
+/* navigation */
+.navigation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-bar{
+    position: relative;
+    margin-top: 2rem;
+}
+
+.navigation-search-bar{
+    width:28rem;
+    background-color:#777;
+    color:black;
+    line-height: 3rem;
+    border-radius: 10rem;
+    letter-spacing: .1rem;
+    font-family: 'Work Sans', sans-serif;
+    outline: none;
+    border: none;
+    padding:.5rem;
+    align-items:center;
+    padding-left: 2rem;
+}
+
+.search-icon-btn{
+    color: rgb(253, 251, 251);
+    font-size: 2rem;
+    position: absolute;
+    right:1rem;
+    top:1rem;
+}
+
+.navigation-search-bar:hover{
+    background-color: goldenrod;
+    transition: background-color .5s
+}
+
+.navigation-list{
+    padding:0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    height:30rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation-item{
+    margin: 1rem;
+}
+.navigation-link{
+    font-family: 'Work Sans',sans-serif;
+    font-size: 3rem;
+    text-decoration: none;
+    color: linen;
+}
+
+.navigation-item:hover{
+color:goldenrod;
+transform: scale(1.2,1.2);
+transition: all .3s;
+}
+
+.copyright{
+    font-size: 1.3rem;
+    color: goldenrod;
+}
+/* end navigation */
