@@ -11,6 +11,8 @@ html {
 
 /* sidebar */
 .sidebar {
+    left:0;
+    top:0;
 position: fixed;
   width: 8rem;
   height: 100vh;
@@ -20,6 +22,7 @@ position: fixed;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  z-index: 5;
 }
 
 .hamburger{
@@ -72,21 +75,24 @@ position: fixed;
     color: #555;
 }
 
-.navigation{
-    width:32rem;
-    height: 100vh;
-    margin-left: 8rem;
-    background: linear-gradient(to top, rgba(34,42, 41,1), rgba(34,42,41,.7)),url(./images/background-1.jpg) center no-repeat;
-    background-size: cover;
-}
+
 /* end sidebar */
 
 /* navigation */
+
 .navigation{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    width:40rem;
+    left:-32rem;
+    height: 100vh;
+  top:0;
+    background: linear-gradient(to top, rgba(34,42, 41,1), rgba(34,42,41,.7)),url(./images/background-1.jpg) center no-repeat;
+    background-size: cover;
+    position:fixed;
+    
 }
 
 .search-bar{
@@ -152,4 +158,29 @@ transition: all .3s;
     font-size: 1.3rem;
     color: goldenrod;
 }
+
+.checkbox:checked ~ .navigation{
+    left:8rem;
+    transition: left .3s;
+}
+
+.checkbox:checked ~ .sidebar .line-2{
+    opacity: 0;
+} 
+
+/* .checkbox:checked ~ .sidebar .line-1{
+    transform: rotate(-90deg) translate(-11.5px, 5px);
+    position: absolute;
+}
+
+.checkbox:checked ~ .sidebar .line-3{
+    transform: rotate(-180deg) translate(-3.5px, -5px);
+position: absolute;
+}  */
+
+.hamburger{
+    position:relative;
+}
+
+
 /* end navigation */
