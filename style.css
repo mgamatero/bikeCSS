@@ -243,3 +243,97 @@ position: absolute;
     }
 }
 /* end header */
+
+/* about us */
+.about-us{
+    padding: 5rem;
+    margin-left:8rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ddd;
+}
+
+.underline{
+    width:70vh;
+    height: .2rem;
+    background-color: #555;
+    margin: 0 auto 1rem auto;
+}
+
+.about-us-heading{
+font-family: 'Poppins', sans-serif;
+font-size: 4rem;
+font-weight: 300;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #555;
+}
+
+.about-us-paragraph{
+font-size: 2rem;
+max-width: 85vh;
+font-style: italic;
+}
+
+.about-us-pics-gallery{
+    height:100vh;
+    margin: 3rem;
+    display:flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center
+    
+}
+.about-us-pic img{
+    width:25rem;
+    border: solid 1px darkgoldenrod;
+    position: absolute;
+    top:-50px;
+    z-index:5;
+}
+
+/* .about-us-pic-1 img{
+    transform: translate(10%,0%);
+} */
+/* .about-us-pic-2 img{
+    transform: translate(0%,120%);
+}
+.about-us-pic-3 img{
+    transform: translate(-30%,100%);
+} */
+.about-us-pic-4 img{
+    transform: translate(20%,50%);
+}
+.about-us-pic-5 img{
+    transform: translate(-50%,70%);
+}
+.about-us-pic-6 img{
+    transform: translate(-120%,90%);
+}
+
+
+.about-us-pic:hover{
+    transform:scale(1.2,1.2);
+    transition: 1s;
+    z-index:10;
+}
+
+.about-us-btn{
+    background: none;
+    color: darkgoldenrod;
+    border: solid 2px darkgoldenrod;
+    padding:1.5rem 2rem;
+    margin: 25rem auto;
+}
+
+.about-us-btn:hover{
+    background: darkgoldenrod;
+    color: #555;
+    padding:1.5rem 2rem;
+    letter-spacing: .2rem;
+    transition: 1s;
+}
+/* end about us */
