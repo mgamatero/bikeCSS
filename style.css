@@ -184,3 +184,62 @@ position: absolute;
 
 
 /* end navigation */
+
+
+/* header */
+.header{
+    height:100vh;
+    background: linear-gradient(to top, rgba(0,0,0,.6), rgba(0,0,0,.7)),url(./images/background-3) center no-repeat;
+    background-size: cover;
+    margin-left:8rem;
+}
+
+
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2.5rem;
+    color: cornsilk;
+    letter-spacing: .2rem;
+    height: 65rem;
+}
+
+.banner .banner-heading{
+    margin:0;
+    padding:0;
+    font-weight: 400;
+    animation: anim 2s;
+}
+
+.banner .banner-paragraph{
+    animation: anim 1.5s .5s backwards;
+}
+
+.banner .banner-button{
+    background: linear-gradient(to right,gold,goldenrod);
+    font-size: 2rem;
+    width:25rem;
+    outline: none;
+    border: none;
+    border-radius: 10rem;
+    padding: 2rem 3rem;
+    animation: anim 1s 1s backwards;
+}
+
+.banner-button:hover{
+    background: linear-gradient(to right,goldenrod,gold);
+}
+
+@keyframes anim{
+    0%{
+        opacity:0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+/* end header */
