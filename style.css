@@ -253,13 +253,13 @@ position: absolute;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    background-color: #ddd;
+    background: linear-gradient(to right,rgb(137, 226, 63),#eee);
 }
 
 .underline{
     width:70vh;
     height: .2rem;
-    background-color: #555;
+    background-color: rgb(223, 208, 208);
     margin: 0 auto 1rem auto;
 }
 
@@ -337,3 +337,36 @@ font-style: italic;
     transition: 1s;
 }
 /* end about us */
+
+/* routes */
+
+.routes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Work Sans', sans-serif;
+   
+   
+ 
+    height: 100vh;
+    height:100vh;
+    background: linear-gradient(to top, rgba(0,0,0,.6), rgba(126, 122, 122, 0.726)),url(./images/background-2.jpg) center no-repeat;
+    background-size: cover;
+    margin-left:8rem;
+}
+.routes-heading{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 4rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: cornsilk;
+    }
+    
+    .routes-paragraph{
+    font-size: 2rem;
+    max-width: 85vh;
+    font-style: italic;
+    }
+/* end routes */
