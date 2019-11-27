@@ -96,6 +96,7 @@ body {
     url(./images/background-1.jpg) center no-repeat;
   background-size: cover;
   position: fixed;
+  z-index: 3;
 }
 
 .search-bar {
@@ -276,8 +277,8 @@ position: absolute;
   font-style: italic;
 }
 
-.about-us-pics-wrapper{
-    position: relative;
+.about-us-pics-wrapper {
+  position: relative;
 }
 .about-us-pics-gallery {
   display: flex;
@@ -290,10 +291,9 @@ position: absolute;
   z-index: 5;
 }
 
-.about-us-pic img{
-    width: 20rem;
+.about-us-pic img {
+  width: 20rem;
 }
-
 
 .about-us-pic:hover {
   transform: scale(1.5, 1.5);
@@ -350,121 +350,182 @@ position: absolute;
   color: cornsilk;
 }
 
-.routes-img-section{
-    /* height: 100vh; */
-    display: flex;
-    flex-direction: row;
+.routes-img-section {
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: row;
 }
 
-.routes-card{
-    width:25rem;
-    border: solid gold 2px;
-    background: #eee;
-    margin: 3rem;
+.routes-card {
+  width: 25rem;
+  border: solid gold 2px;
+  background: #eee;
+  margin: 3rem;
 }
 
-.routes-card img{
-    max-width:25rem;
+.routes-card img {
+  max-width: 25rem;
 }
 
-.routes-card-header{
-    font-size: 2rem;
-    letter-spacing: .2rem;
-    font-style: italic;
-    text-align: center;
-
+.routes-card-header {
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  font-style: italic;
+  text-align: center;
 }
 
-.routes-card-content{
-    font-family: 'Work Sans',sans-serif;
-    font-size: 1.5rem;
-    color: mediumblue;
-    padding: 1rem;
-    
+.routes-card-content {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.5rem;
+  color: mediumblue;
+  padding: 1rem;
 }
 /* end routes */
 
 /* members */
-.members{
-    background: black;
-    height:100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
+.members {
+  background: black;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .underline {
-    width: 70vh;
-    height: 0.2rem;
-    background-color: rgb(223, 208, 208);
-    margin: 0 auto 1rem auto;
-  }
-  
-  .members-heading {
-    font-family: "Poppins", sans-serif;
-    font-size: 4rem;
-    font-weight: 300;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: rgb(255, 255, 255);
-  }
-  
-  .members-paragraph {
-    font-size: 1.3rem;
-    width: 120vh;
-    font-style: italic;
-    color: rgb(255, 255, 255);
-  }
-
-  .members-paragraph-img{
-      transform: rotate(90deg);
-      width:10rem;
-      -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-      filter: grayscale(100%);
-      float:left;
-      margin:1rem;
-  }
-
-.member-card-section{
-    display: flex;
-    flex-direction: row;
-    margin:2rem;
-    
+  width: 70vh;
+  height: 0.2rem;
+  background-color: rgb(223, 208, 208);
+  margin: 0 auto 1rem auto;
 }
 
+.members-heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 4rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
 
-  .member-card{
-      padding:0;
-      width:30rem;
-      background: rgb(245, 245, 245);
-      display: flex;
-      flex-direction: row;
-      margin:1rem;
-  }
+.members-paragraph {
+  font-size: 1.3rem;
+  width: 120vh;
+  font-style: italic;
+  color: rgb(255, 255, 255);
+}
 
-  .member-img img{
-      /* transform: rotate(90deg); */
-      width:10rem;
-  }
+.members-paragraph-img {
+  transform: rotate(90deg);
+  width: 10rem;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  float: left;
+  margin: 1rem;
+}
 
-  .member-card-info-wrapper{
-      display: flex;
-      flex-direction: column;
-      align-items:center;
-      padding:1rem;
-  }
+.member-card-section {
+  display: flex;
+  flex-direction: row;
+  margin: 2rem;
+}
 
-  .member-card-heading{
-      color: rgb(50, 59, 59);
-      font-size: 1.5rem;
-  }
+.member-card {
+  padding: 0;
+  width: 30rem;
+  background: rgb(245, 245, 245);
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+}
 
-  .member-card-content{
-      color: rgb(8, 121, 55);
-      font-size: 1.4rem;
-      font-style: italic;
-  }
+.member-img img {
+  /* transform: rotate(90deg); */
+  width: 10rem;
+}
 
+.member-card-info-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
 
+.member-card-heading {
+  color: rgb(50, 59, 59);
+  font-size: 1.5rem;
+}
+
+.member-card-content {
+  color: rgb(8, 121, 55);
+  font-size: 1.4rem;
+  font-style: italic;
+}
 /* end members */
+
+/* footer */
+.footer {
+  background: linear-gradient(
+      to top,
+      rgba(71, 65, 65, 1),
+      rgba(71, 65, 20, 0.7)
+    ),
+    url(./images/footer.jpg) bottom no-repeat;
+  margin-left: 8rem;
+}
+
+.main-part {
+  display: flex;
+  justify-content: space-around;
+  padding: 4rem;
+}
+
+.footer-heading {
+  font-size: 2.5rem;
+  font-weight: 300;
+  color: goldenrod;
+  margin: 1rem 0 3rem 0;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-list-item {
+  margin-bottom: 2rem;
+}
+
+.footer-list-link {
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: #bbb;
+}
+
+.contact{
+  font-size: 1.5rem;
+  color:#bbb;
+  margin-bottom: 4rem;
+}
+
+.footer-form{
+  display: flex;
+}
+
+.footer-input{
+  width: 25rem;
+  padding:1rem;
+  font-family: 'Josefin Sans' sans-serif;
+  font-size: 1.8rem;
+  color: #444;
+  outline:none;
+}
+
+.footer-btn{
+  padding:1rem;
+  background-color: #b85d1c;
+  outline:none;
+  color:#ddd;
+}
+
+/* end footer */
