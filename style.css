@@ -191,7 +191,11 @@ position: absolute;
 /* header */
 .header {
   height: 100vh;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.6),
+      rgba(126, 122, 122, 0.726)
+    ),
     url(./images/background-3) center no-repeat;
   background-size: cover;
   margin-left: 8rem;
@@ -502,30 +506,30 @@ position: absolute;
   color: #bbb;
 }
 
-.contact{
+.contact {
   font-size: 1.5rem;
-  color:#bbb;
+  color: #bbb;
   margin-bottom: 4rem;
 }
 
-.footer-form{
+.footer-form {
   display: flex;
 }
 
-.footer-input{
+.footer-input {
   width: 25rem;
-  padding:1rem;
-  font-family: 'Josefin Sans' sans-serif;
+  padding: 1rem;
+  font-family: "Josefin Sans" sans-serif;
   font-size: 1.8rem;
   color: #444;
-  outline:none;
+  outline: none;
 }
 
-.footer-btn{
-  padding:1rem;
+.footer-btn {
+  padding: 1rem;
   background-color: #b85d1c;
-  outline:none;
-  color:#ddd;
+  outline: none;
+  color: #ddd;
 }
 
 /* end footer */
