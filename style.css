@@ -192,6 +192,7 @@ position: absolute;
 
 /* header */
 .header {
+  
   min-height: 100vh;
   background: linear-gradient(
       to top,
@@ -253,6 +254,7 @@ position: absolute;
 
 /* about us */
 .about-us {
+  padding-top:1rem;
   margin-left: 8rem;
   min-height: 100vh;
   display: flex;
@@ -328,6 +330,7 @@ position: absolute;
   justify-content: space-around;
   font-family: "Work Sans", sans-serif;
   min-height: 100vh;
+  padding-top:1rem;
   background: linear-gradient(
       to top,
       rgba(0, 0, 0, 0.6),
@@ -388,6 +391,7 @@ position: absolute;
 .members {
   background: black;
   min-height: 100vh;
+  padding-top:1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
