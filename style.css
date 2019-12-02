@@ -532,10 +532,10 @@ position: absolute;
 /* end footer */
 
 @media (max-width: 1024px) {
-  .members {
+
+  .members{
     height: 150vh;
   }
-  
   .member-card-section{
     flex-direction: column;
   }
@@ -580,3 +580,30 @@ position: absolute;
 .main-part{
   flex-direction: column;
 }
+
+@media(max-width:667px){
+  .banner{
+    height: 100vh;
+  }
+  .banner-heading{
+    font-size: 3rem;
+  }
+
+  .heading-paragraph{
+    font-size: 2.5rem;
+  }
+
+.about-us{
+  height: 190vh;
+}
+
+.routes{
+  height: 400vh;
+}
+
+.members{
+  height: 275vh;
+}
+}
+
+@media(max-width:375px){}
