@@ -417,7 +417,7 @@ position: absolute;
 
 .members-paragraph {
   font-size: 1.3rem;
-  width: 120vh;
+  /* width: 120vh; */
   font-style: italic;
   color: rgb(255, 255, 255);
 }
