@@ -606,4 +606,63 @@ position: absolute;
 }
 }
 
-@media(max-width:375px){}
+@media(max-width:375px){
+  .navigation{
+    width:20rem;
+  }
+  .navigation-search-bar{
+    width: 18rem;
+  }
+
+  .header{
+    height: 100%;
+  }
+  .banner-heading{
+    font-size: 2rem;
+    flex-wrap: wrap;
+  }
+  .banner-paragraph{
+    font-size: 1.25rem;
+  }
+  .banner-button{
+    font-size: 1rem;
+    padding: 1rem;
+  }
+
+  .about-us{
+    height: 100%;
+  }
+
+  .routes{
+height: 100%;
+  }
+
+  .routes-card{
+    width: 20rem;
+  }
+
+  .routes-card-img img{
+    width: 20rem;
+  }
+
+  .members{
+height: 100%;
+padding:.3rem;
+  }
+
+  .members-heading{
+    flex-wrap: wrap;
+  }
+  .members-paragraph{
+    width:auto;
+    padding:.5rem;
+  }
+  .member-card{
+    flex-direction: column;
+    margin:1rem;
+  }
+
+  .footer-input{
+    width: 50%;
+  }
+}
