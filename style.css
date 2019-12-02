@@ -190,7 +190,7 @@ position: absolute;
 
 /* header */
 .header {
-  height: 100vh;
+  /* height: 100vh; */
   background: linear-gradient(
       to top,
       rgba(0, 0, 0, 0.6),
@@ -252,7 +252,7 @@ position: absolute;
 /* about us */
 .about-us {
   margin-left: 8rem;
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -325,7 +325,7 @@ position: absolute;
   align-items: center;
   justify-content: space-around;
   font-family: "Work Sans", sans-serif;
-  height: 100vh;
+  /* height: 100vh; */
   background: linear-gradient(
       to top,
       rgba(0, 0, 0, 0.6),
@@ -385,7 +385,7 @@ position: absolute;
 /* members */
 .members {
   background: black;
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -534,7 +534,7 @@ position: absolute;
 @media (max-width: 1024px) {
 
   .members{
-    height: 150vh;
+    /* height: 150vh; */
   }
   .member-card-section{
     flex-direction: column;
@@ -550,12 +550,12 @@ position: absolute;
     display: none;
   }
 .about-us{
-  height:150vh;
+  /* height:150vh; */
   padding-bottom: 5rem;
 }
 
 .routes{
-  height: 270vh;
+  /* height: 270vh; */
 }
  .routes-paragraph{
    padding: 5rem;
@@ -571,7 +571,7 @@ position: absolute;
   }
 }
 .members{
-  height: 200vh;
+  /* height: 200vh; */
 }
 .footer-list-item{
   flex-direction: columm;
@@ -583,7 +583,7 @@ position: absolute;
 
 @media(max-width:667px){
   .banner{
-    height: 100vh;
+    /* height: 100vh; */
   }
   .banner-heading{
     font-size: 3rem;
@@ -594,15 +594,15 @@ position: absolute;
   }
 
 .about-us{
-  height: 190vh;
+  /* height: 190vh; */
 }
 
 .routes{
-  height: 400vh;
+  /* height: 400vh; */
 }
 
 .members{
-  height: 275vh;
+  /* height: 275vh; */
 }
 }
 
@@ -615,7 +615,7 @@ position: absolute;
   }
 
   .header{
-    height: 100%;
+    /* height: 100%; */
   }
   .banner-heading{
     font-size: 2rem;
@@ -630,11 +630,11 @@ position: absolute;
   }
 
   .about-us{
-    height: 100%;
+    /* height: 100%; */
   }
 
   .routes{
-height: 100%;
+/* height: 100%; */
   }
 
   .routes-card{
@@ -646,7 +646,7 @@ height: 100%;
   }
 
   .members{
-height: 100%;
+/* height: 100%; */
 padding:.3rem;
   }
 
@@ -656,6 +656,11 @@ padding:.3rem;
   .members-paragraph{
     width:auto;
     padding:.5rem;
+  }
+
+  .member-card-section{
+    width:auto;
+    padding: .5rem;
   }
   .member-card{
     flex-direction: column;
