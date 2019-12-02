@@ -531,175 +531,52 @@ position: absolute;
 
 /* end footer */
 
-@media (max-width: 1200px) {
+@media (max-width: 1024px) {
   .members {
-    height: 120vh;
+    height: 150vh;
   }
-  .members-paragraph {
-    width: 90vh;
-  }
-}
-
-@media (max-width: 1060px) {
-
-
-  .routes {
-    height: 200vh;
   
-  }
-  .routes-img-section {
+  .member-card-section{
     flex-direction: column;
-    align-items: center;
-    margin-bottom: 0.3px;
   }
 
-  .routes-card {
-    width: 35rem;
-    border: solid rgb(238, 227, 163) 2px;
-    background: #eee;
-    margin: 0.5rem;
-  }
-
-  .routes-card img {
-    max-width: 35rem;
-  }
-
-  .routes-card-header {
-    font-size: 2rem;
-    letter-spacing: 0.2rem;
-    font-style: italic;
-    text-align: center;
-  }
-
-  .routes-card-content {
-    font-family: "Work Sans", sans-serif;
+  .footer-input{
     font-size: 1.5rem;
-    color: mediumblue;
-    padding: 0.5rem;
-  }
-
-  .members {
-    height: 175vh;
-  }
-
-  .member-card-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 2rem;
   }
 }
 
-@media(max-width:750px){
-  .header{
-    height: 75vh;
-    
-  }
-  .banner-heading{
-    font-size: 4rem;
-  }
-
-  .banner .banner-paragraph{
-    font-size: 2rem;
-  }
-
-  .banner-button{
-    font-size: 1rem;
-    width: 10rem;
-    outline: none;
-    border: none;
-    border-radius: 10rem;
-    padding: 2rem 3rem;
-  }
-
-.about-us{
-  height: 75vh;
-}
-
-.about-us-paragraph{
-  width: 30rem;
-}
-
-  .routes{
-    height:160vh;
-  }
-
-  .routes-paragraph{
-    width: 30rem;
-  }
-
-  .about-us-pic img {
-    width: 15rem;
-    border: solid 1px rgb(0, 0, 0);
-    z-index: 5;
-  }
-
-  .members{
-    height: 120vh;
-  }
-
-  .members-paragraph{
-    width: 50vh;
-  }
-
-  .main-part{
-    flex-direction: column;
-  }
-
-  .footer-list{
-    display: flex;
-    flex-direction: row;
-  }
-
-  .footer-heading{
-    font-size: 2rem;
-    margin-top: .5rem;
-    margin-bottom: .5rem;
-  }
-  .footer-list-link{
-    margin: 1rem;
-    font-size: 1rem;
-  }
-
+@media(max-width: 768px){
   .underline{
     display: none;
   }
+.about-us{
+  height:150vh;
+  padding-bottom: 5rem;
 }
 
-@media(max-width:560px){
-  
-.header{
-  height: 60;
+.routes{
+  height: 270vh;
 }
-
-  .banner .banner-heading {
-    font-size: 3rem;
+ .routes-paragraph{
+   padding: 5rem;
+ }
+  .routes-img-section{
+    flex-direction: column;
   }
-  
-  .banner .banner-paragraph {
-    font-size: 2rem;
+  .about-us-paragraph{
+    padding: 5rem;
   }
-  
-  .banner .banner-button {
-    background: linear-gradient(to right, gold, goldenrod);
-    font-size: 2rem;
-    width: 20rem;
-    outline: none;
-    border: none;
-    border-radius: 10rem;
-    padding: 2rem 3rem;
-    animation: anim 1s 1s backwards;
-  }
-
   .about-us-pics-gallery{
     flex-direction: column;
   }
+}
+.members{
+  height: 200vh;
+}
+.footer-list-item{
+  flex-direction: columm;
+}
 
-  .members-paragraph{
-    width:80%;
-  }
-
-  .footer-list{
-    flex-direction: column;
-  }
+.main-part{
+  flex-direction: column;
 }
