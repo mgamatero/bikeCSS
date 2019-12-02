@@ -541,8 +541,11 @@ position: absolute;
 }
 
 @media (max-width: 1060px) {
+
+
   .routes {
     height: 200vh;
+  
   }
   .routes-img-section {
     flex-direction: column;
@@ -576,7 +579,7 @@ position: absolute;
   }
 
   .members {
-    height: 160vh;
+    height: 175vh;
   }
 
   .member-card-section {
@@ -590,6 +593,7 @@ position: absolute;
 @media(max-width:750px){
   .header{
     height: 75vh;
+    
   }
   .banner-heading{
     font-size: 4rem;
@@ -664,4 +668,38 @@ position: absolute;
 
 @media(max-width:560px){
   
+.header{
+  height: 60;
+}
+
+  .banner .banner-heading {
+    font-size: 3rem;
+  }
+  
+  .banner .banner-paragraph {
+    font-size: 2rem;
+  }
+  
+  .banner .banner-button {
+    background: linear-gradient(to right, gold, goldenrod);
+    font-size: 2rem;
+    width: 20rem;
+    outline: none;
+    border: none;
+    border-radius: 10rem;
+    padding: 2rem 3rem;
+    animation: anim 1s 1s backwards;
+  }
+
+  .about-us-pics-gallery{
+    flex-direction: column;
+  }
+
+  .members-paragraph{
+    width:80%;
+  }
+
+  .footer-list{
+    flex-direction: column;
+  }
 }
