@@ -172,15 +172,17 @@ body {
   opacity: 0;
 }
 
-/* .checkbox:checked ~ .sidebar .line-1{
-    transform: rotate(-90deg) translate(-11.5px, 5px);
+.checkbox:checked ~ .sidebar .line-1{
+    /* transform: rotate(-90deg) translate(-11.5px, 5px); */
+    transform: rotate(45deg) translate(0px, 5px);
     position: absolute;
 }
 
 .checkbox:checked ~ .sidebar .line-3{
-    transform: rotate(-180deg) translate(-3.5px, -5px);
+    /* transform: rotate(-180deg) translate(-3.5px, -5px); */
+    transform: rotate(-45deg) translate(0px, -5px);
 position: absolute;
-}  */
+} 
 
 .hamburger {
   position: relative;
@@ -533,13 +535,9 @@ position: absolute;
 
 @media (max-width: 1024px) {
 
-  .members{
-    /* height: 150vh; */
-  }
   .member-card-section{
     flex-direction: column;
   }
-
   .footer-input{
     font-size: 1.5rem;
   }
@@ -550,12 +548,7 @@ position: absolute;
     display: none;
   }
 .about-us{
-  /* height:150vh; */
   padding-bottom: 5rem;
-}
-
-.routes{
-  /* height: 270vh; */
 }
  .routes-paragraph{
    padding: 5rem;
@@ -570,9 +563,7 @@ position: absolute;
     flex-direction: column;
   }
 }
-.members{
-  /* height: 200vh; */
-}
+
 .footer-list-item{
   flex-direction: columm;
 }
@@ -582,9 +573,7 @@ position: absolute;
 }
 
 @media(max-width:667px){
-  .banner{
-    /* height: 100vh; */
-  }
+  
   .banner-heading{
     font-size: 3rem;
   }
@@ -593,17 +582,6 @@ position: absolute;
     font-size: 2.5rem;
   }
 
-.about-us{
-  /* height: 190vh; */
-}
-
-.routes{
-  /* height: 400vh; */
-}
-
-.members{
-  /* height: 275vh; */
-}
 }
 
 @media(max-width:375px){
@@ -614,6 +592,9 @@ position: absolute;
     width: 18rem;
   }
 
+  .navigation-link{
+    font-size: 2rem;
+  }
   .header{
     /* height: 100%; */
   }
@@ -654,8 +635,9 @@ padding:.3rem;
     flex-wrap: wrap;
   }
   .members-paragraph{
-    width:auto;
     padding:.5rem;
+    flex-wrap: wrap;
+    width:18rem;
   }
 
   .member-card-section{
