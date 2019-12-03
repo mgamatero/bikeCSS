@@ -594,17 +594,16 @@ position: absolute;
 
 @media(max-width:375px){
   .navigation{
-    width:20rem;
+    width:15rem;
   }
   .navigation-search-bar{
-    width: 18rem;
+    width: 12rem;
   }
 
   .navigation-link{
     font-size: 1.5rem;
   }
   .header{
-    /* height: 100%; */
   }
   .banner-heading{
     font-size: 2rem;
@@ -619,11 +618,9 @@ position: absolute;
   }
 
   .about-us{
-    /* height: 100%; */
   }
 
   .routes{
-/* height: 100%; */
   }
 
   .routes-card{
@@ -635,7 +632,6 @@ position: absolute;
   }
 
   .members{
-/* height: 100%; */
 padding:.3rem;
   }
 
